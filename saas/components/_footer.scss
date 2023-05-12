@@ -1,0 +1,112 @@
+.footer {
+    flex-direction: row;
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-item {
+display: flex;
+align-items: baseline;  
+}
+.adress-info {
+margin-right: 70px;
+}
+.address {
+margin-top: 20px;
+}
+.address-list-item:not(:last-child){
+margin-bottom: 10px;
+}
+.address-list-nav {
+    line-height: 1.71;
+    font-style: normal;
+     color: #FFFFFF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover,
+        &:focus {
+         color: #2196F3;
+    }
+}
+.address-list-link {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+            color: #2196F3;
+        }
+}
+
+
+.footer-title {
+font-weight: 700;
+line-height: 1.14;
+font-size: 14px;
+text-transform: uppercase;
+color: #ffffff; 
+}
+
+.mail-input {
+margin-left: auto;
+}
+.mail-input-form{
+display: flex;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.contact-form-input-mail {
+margin-right: 12px;
+padding-left: 16px;
+width: 358px;
+height: 50px;
+cursor: pointer;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background: #2F303A;
+color: #FFFFFF;
+
+    &:focus {
+        outline: none;
+        border-color: #2196F3;
+    }
+}
+
+.contact-form-submit-btn-send {
+display: block;
+margin: 0 auto;
+width: 200px;
+padding: 10px 62px 10px 28px;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+cursor: pointer;
+border: navajowhite;
+color: #FFFFFF;
+background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+position: relative;
+}
+.modal-inout-icon-send {
+position: absolute;
+        top: 50%;
+    right: 28px;
+    transform: translateY(-50%);
+}
+::placeholder {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;   
+    color: rgba(255, 255, 255, 0.6);
+}

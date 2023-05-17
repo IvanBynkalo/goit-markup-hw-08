@@ -13,12 +13,12 @@
         line-height: 1.14;
         font-size: 14px;
         text-transform: uppercase;
-        color: #212121;
+        color: var(--tx-color);
 
 }
 .about-text {
         line-height: 1.71;  
-        color: #757575;
+        color: var(--clarified-txt-cl);
         margin-top: 10px;
 }
 .about-list-blok{
@@ -27,7 +27,7 @@
     justify-content: center;
     width: 270px;
     height: 120px;
-    background: #F5F4FA;
+    background: var(--secondary-bg-cl);
     border-radius: 4px;
     margin-bottom: 30px;
 }

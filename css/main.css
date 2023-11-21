@@ -1058,7 +1058,6 @@ address {
 
 @media screen and (min-width: 768px) {
   .address__wraper {
-    display: flex;
     gap: 165px;
   }
   .contact__wraper {
@@ -1082,10 +1081,7 @@ address {
   }
   .address {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 70px;
+  align-items: baseline;
   }
   .address-list:not(:last-child) {
     margin-bottom: 9px;

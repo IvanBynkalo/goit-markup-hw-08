@@ -147,3 +147,6 @@
         display: none;
     }
 }
+.mobile-menu-btn__icon:hover, .mobile-menu-btn__icon:focus {
+    fill: var(--akcent-color--);
+}

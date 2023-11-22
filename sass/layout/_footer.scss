@@ -24,6 +24,13 @@ address {
 
     text-align: center;
 }
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 60px;
+}
 .address-list:not(:last-child) {
     margin-bottom: 8px;
 }
@@ -182,6 +189,7 @@ address {
 
 .address__wraper {
     
+            display: flex;
             gap: 165px;
         }
 

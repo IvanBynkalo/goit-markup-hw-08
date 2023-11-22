@@ -48,15 +48,13 @@ p {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -897,6 +895,7 @@ p {
 @media screen and (min-width: 1200px) {
   .work {
     display: block;
+    padding-bottom: 94px;
   }
   .img-item {
     display: -webkit-box;
@@ -1112,6 +1111,20 @@ address {
   text-align: center;
 }
 
+.address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+}
+
 .address-list:not(:last-child) {
   margin-bottom: 8px;
 }
@@ -1269,6 +1282,9 @@ address {
 
 @media screen and (min-width: 768px) {
   .address__wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     gap: 165px;
   }
   .contact__wraper {

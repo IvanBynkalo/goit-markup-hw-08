@@ -155,7 +155,6 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 10px;
     margin-top: auto;
   }
   .mobile-menu__social-link {
@@ -194,7 +193,6 @@ p {
 
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -1471,14 +1469,24 @@ address {
   color: var(--text-color);
 }
 
+.catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  row-gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 @media screen and (min-width: 768px) {
   .catalog {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 30px;
+    row-gap: 15px;
   }
   .catalog-item {
     margin-bottom: 0;

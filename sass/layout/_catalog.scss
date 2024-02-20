@@ -1,7 +1,7 @@
 
 .catalog-item {
-    margin-bottom: 30px;
-
+    margin-top: 30px;
+    margin-left: 30px;
     border: 1px solid #eeeeee;
 
 }
@@ -82,26 +82,23 @@
 }
 
 .catalog {
+    margin-top: calc(-1 * 30px);
+    margin-left: calc(-1 * 30px);
     display: flex;
     flex-wrap: wrap;
-    column-gap: 30px;
-    row-gap: 30px;
-    justify-content: center;
 
     }
 
 @media screen and (min-width: 768px) {
     
-    .catalog {
-        row-gap: 15px;        
-    }
+   
 
 
 .catalog-item {
     
-    margin-bottom: 0;
-
-    flex-basis: calc((100% - 30px) / 2);
+  
+    
+    flex-basis: calc((100% - 2 * 15px - 30px)/2);
 }
 
 
@@ -113,7 +110,7 @@
 
         margin-bottom: 0;
 
-        flex-basis: calc((100% - 60px) / 3);
+        flex-basis: calc((100% - 2 * 15px - 30px * 2)/3);
     }
 
 }

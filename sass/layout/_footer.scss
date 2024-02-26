@@ -12,8 +12,14 @@
     margin-bottom: 20px;
 
     color: #FFFFFF;
+}
 
-
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    
 }
 address {
     font-style: normal;
@@ -157,6 +163,8 @@ address {
     margin-right: auto;
     display: flex;
     align-items: center;
+    align-self: flex-end;
+    justify-content: center;
     padding: 10px 24px;
     gap: 10px;
 
@@ -204,6 +212,8 @@ address {
     width: 450px;
 }
 
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -227,6 +237,10 @@ address {
     gap: 70px;
 }
 
+.footer-form {
+    flex-direction: row;
+    
+}
 
 
 
@@ -256,11 +270,6 @@ address {
    
 }
 
-.footer-form {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    
-}
+
 
 }

@@ -834,7 +834,6 @@ p {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 30px;
   }
   .content__item {
     margin-bottom: 0;

@@ -778,8 +778,6 @@ p {
 
 .content__item {
   width: 100%;
-  height: 226px;
-  margin-bottom: 30px;
 }
 
 .content__wraper {
@@ -824,19 +822,15 @@ p {
   color: var(--text-color);
 }
 
-@media screen and (min-width: 480px) {
-  .content__list {
-    width: 450px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .content__item {
-    margin-bottom: 30px;
-  }
+.content__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
 }
+
 @media screen and (min-width: 768px) {
   .content__list {
     width: 738px;
